@@ -18,7 +18,9 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.0"
+  s.add_dependency "responders", "~> 2.1"
 
+  s.add_development_dependency "active_model_serializers", "~> 0.8"
   s.add_development_dependency "factory_girl_rails"
   s.add_development_dependency "minitest-spec-rails"
   s.add_development_dependency "mocha"
