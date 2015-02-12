@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Blogy::VERSION
   s.authors     = ["Jiri Kolarik"]
   s.email       = ["jiri.kolarik@wereinhq.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Blogy."
-  s.description = "TODO: Description of Blogy."
+  s.homepage    = "https://wereinhq.com"
+  s.summary     = "Plug and play mountable engine for blog."
+  s.description = "Mountable engine with blog management in your API."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
