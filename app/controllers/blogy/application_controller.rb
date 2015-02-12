@@ -1,4 +1,4 @@
 module Blogy
-  class ApplicationController < ActionController::Base
+  class ApplicationController < Blogy.parent_controller.constantize
   end
 end
