@@ -19,6 +19,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.0"
   s.add_dependency "responders", "~> 2.1"
+  s.add_dependency "enumerize"
+  s.add_dependency "kramdown"
+  s.add_dependency "coderay"
 
   s.add_development_dependency "active_model_serializers", "~> 0.8"
   s.add_development_dependency "factory_girl_rails"
