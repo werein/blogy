@@ -1,4 +1,8 @@
 require 'responders'
+require 'enumerize'
+require 'kramdown'
+require 'coderay'
+require 'open-uri'
 
 module Blogy
   class Engine < ::Rails::Engine

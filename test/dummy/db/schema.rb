@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150211205643) do
+ActiveRecord::Schema.define(version: 20150216204624) do
 
   create_table "blogy_post_translations", force: :cascade do |t|
     t.integer  "blogy_post_id"
@@ -21,6 +21,11 @@ ActiveRecord::Schema.define(version: 20150211205643) do
     t.text     "text"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.string   "document"
+    t.string   "document_tmp"
+    t.string   "remote"
+    t.string   "storage"
+    t.string   "format"
   end
 
   add_index "blogy_post_translations", ["blogy_post_id"], name: "index_blogy_post_translations_on_blogy_post_id"

@@ -6,7 +6,7 @@ module Blogy
 
     # GET /posts
     def index
-      @posts = Post.all
+      @posts = Post.joins(:translations).all
       respond_with @posts, root: :'blogy/posts'
     end
 
@@ -47,12 +47,12 @@ module Blogy
     private
       # Use callbacks to share common setup or constraints between actions.
       def set_post
-        @post = Post.find(params[:id])
+        @post = Post.joins(:translations).find(params[:id])
       end
 
       # Only allow a trusted parameter "white list" through.
       def post_params
-        params.require(:'blogy/post').permit(:published, :draft, :ilustration, :title, :locale, :slug, :text)
+        params.require(:'blogy/post').permit(:published, :draft, :ilustration, :title, :locale, :slug, :text, :storage, :format)
       end
   end
 end
