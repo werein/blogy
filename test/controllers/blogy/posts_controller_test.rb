@@ -5,6 +5,7 @@ module Blogy
     before do
       @routes = Blogy::Engine.routes
       @post = build_stubbed(:post)
+      Post.stubs(:joins).returns(Post)
       Post.stubs(:find).returns(@post)
     end
 
