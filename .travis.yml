@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.2.0
+before_script:
+  - bundle exec rake db:schema:load RAILS_ENV=test
+addons:
+  code_climate:
+    repo_token: 4560913caaec6bae16799b6a410dc4b03b8bd9871192d9b105c4d905d5b76fd4
