@@ -1,14 +1,5 @@
 # Blogy
 
-[![Build Status][travis-badge]][travis] [![Code Climate][code-climate-badge]][code-climate] [![Test coverage][coverage-badge]][coverage] [![Gem Version][version-badge]][version] [![Dependency Status][dependencies-badge]][dependencies] 
+[![Build Status](https://travis-ci.org/werein/blogy.svg)](https://travis-ci.org/werein/blogy)  [![Code Climate](https://codeclimate.com/github/werein/blogy/badges/gpa.svg)](https://codeclimate.com/github/werein/blogy) [![Test coverage](https://codeclimate.com/github/werein/blogy/badges/coverage.svg)](https://codeclimate.com/github/werein/blogy) [![Version](https://badge.fury.io/rb/blogy.svg)](https://badge.fury.io/rb/blogy) [![Dependencies](https://gemnasium.com/werein/blogy.svg)](https://gemnasium.com/werein/blogy)
 
-[travis]: https://travis-ci.org/werein/blogy
-[travis-badge]: https://travis-ci.org/werein/blogy.svg
-[code-climate]: https://codeclimate.com/github/werein/blogy
-[code-climate-badge]: https://codeclimate.com/github/werein/blogy/badges/gpa.svg
-[coverage]: https://codeclimate.com/github/werein/blogy
-[coverage-badge]: https://codeclimate.com/github/werein/blogy/badges/coverage.svg
-[version]: http://badge.fury.io/rb/blogy
-[version-badge]: https://badge.fury.io/rb/blogy.svg
-[dependencies]: https://gemnasium.com/werein/blogy
-[dependencies-badge]: ttps://gemnasium.com/werein/blogy.svg
+Plug and play mountable engine for blog.
